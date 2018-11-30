@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+	<hello.entity.newspaper.Newspaper>
+		<title>newspaper</title>
+		<date__publication>2018-11-30 07:22:19.99 UTC</date__publication>
+		<stories>
+			<hello.entity.newspaper.Story>
+				<story__author>story</story__author>
+				<story__title>Green</story__title>
+			</hello.entity.newspaper.Story>
+		</stories>
+	</hello.entity.newspaper.Newspaper>
+	
+	<hello.entity.book.Book>
+		<author>AA</author>
+		<chapters>
+			<hello.entity.book.Chapter>
+				<chapter__content>sdasd</chapter__content>
+			</hello.entity.book.Chapter>
+		</chapters>
+	</hello.entity.book.Book>
+	
+	<hello.entity.journal.Journal>
+		<title>JJJJJJJJJJJJJ</title>
+		<year__publication>2010</year__publication>
+		<articles>
+			<hello.entity.journal.Article>
+				<article__author>asdasd</article__author>
+				<article__title>sasdad</article__title>
+			</hello.entity.journal.Article>
+		</articles>
+	</hello.entity.journal.Journal>
+</list>

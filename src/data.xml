@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LibraryItems>
+	<book>
+		<title>bt1</title>
+		<author>ba1</author>
+		<chapters>
+			<chapter>
+				<chapter_name>cn1</chapter_name>
+				<chapter_no>cno1</chapter_no>
+				<chapter_content>cc1</chapter_content>
+			</chapter>
+			<chapter>
+				<chapter_name>cn2</chapter_name>
+				<chapter_no>cno2</chapter_no>
+				<chapter_content>cc2</chapter_content>
+			</chapter>
+		</chapters>
+	</book>
+	<journal>
+		<title>jt1</title>
+		<year_publication>jy1</year_publication>
+		<volume_no>jv1</volume_no>
+		<articles>
+			<article>
+				<article_author>aa1</article_author>
+				<article_title>at1</article_title>
+				<article_content>ac1</article_content>
+			</article>
+			<article>
+				<article_author>aa2</article_author>
+				<article_title>at2</article_title>
+				<article_content>ac2</article_content>
+			</article>
+		</articles>
+	</journal>
+</LibraryItems>
