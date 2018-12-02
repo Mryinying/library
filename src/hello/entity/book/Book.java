@@ -9,15 +9,9 @@ import hello.entity.LibraryItem;
  */
 public class Book extends LibraryItem{
 	
-	private String title;
-	
 	private String author;
 	
 	private List<Chapter> chapters;
-	
-	public String getTitle() {
-		return title;
-	}
 	
 	public String getAuthor() {
 		return author;
@@ -25,10 +19,6 @@ public class Book extends LibraryItem{
 
 	public List<Chapter> getChepters() {
 		return chapters;
-	}
-	
-	public void setTitle(String title) {
-		this.title = title;
 	}
 
 	public void setAuthor(String author) {
@@ -41,7 +31,8 @@ public class Book extends LibraryItem{
 
 	@Override
 	public String toString() {
-		return "Book [title=" + title + ", author=" + author + ", chapters=" + chapters + "]";
+		return "Book [author=" + author + ", title=" + getTitle() + ", chapters=" + chapters + "] \r\n";
 	}
+	
 	
 }

@@ -9,7 +9,6 @@ import hello.entity.LibraryItem;
  */
 public class Journal extends LibraryItem {
 	
-	private String title;
 	
 	private String year_publication;
 	
@@ -17,9 +16,6 @@ public class Journal extends LibraryItem {
 	
 	private List<Article> articles ;
 
-	public String getTitle() {
-		return title;
-	}
 
 	public String getYear_publication() {
 		return year_publication;
@@ -31,10 +27,6 @@ public class Journal extends LibraryItem {
 
 	public List<Article> getArticles() {
 		return articles;
-	}
-
-	public void setTitle(String title) {
-		this.title = title;
 	}
 
 	public void setYear_publication(String year_publication) {
@@ -51,8 +43,8 @@ public class Journal extends LibraryItem {
 
 	@Override
 	public String toString() {
-		return "Journal [title=" + title + ", year_publication=" + year_publication + ", volume_no=" + volume_no
-				+ ", articles=" + articles + "]";
+		return "Journal [ author=" + getAuthor() + ", title=" + getTitle() + ",year_publication=" + year_publication + ", volume_no=" + volume_no + ", articles=" + articles
+				+ "] \r\n";
 	}
 	
 }

@@ -10,7 +10,7 @@ public class Article {
 	
 	private String article_title;
 	
-	private String article_content;
+	private String content;
 
 	public String getArticle_author() {
 		return article_author;
@@ -21,7 +21,7 @@ public class Article {
 	}
 
 	public String getArticle_content() {
-		return article_content;
+		return content;
 	}
 
 	public void setArticle_author(String article_author) {
@@ -33,13 +33,13 @@ public class Article {
 	}
 
 	public void setArticle_content(String article_content) {
-		this.article_content = article_content;
+		this.content = article_content;
 	}
 
 	@Override
 	public String toString() {
 		return "Article [article_author=" + article_author + ", article_title=" + article_title + ", article_content="
-				+ article_content + "]";
+				+ content + "]";
 	}
 	
 }

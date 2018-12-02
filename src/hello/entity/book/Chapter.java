@@ -10,7 +10,7 @@ public class Chapter {
 	
 	private String chapter_no;
 	
-	private String chapter_content;
+	private String content;
 	
 	public String getChapter_name() {
 		return chapter_name;
@@ -21,7 +21,7 @@ public class Chapter {
 	}
 	
 	public String getChapter_content() {
-		return chapter_content;
+		return content;
 	}
 	
 	public void setChapter_name(String chapter_name) {
@@ -33,12 +33,12 @@ public class Chapter {
 	}
 
 	public void setChapter_content(String chapter_content) {
-		this.chapter_content = chapter_content;
+		this.content = chapter_content;
 	}
 
 	@Override
 	public String toString() {
 		return "Chapter [chapter_name=" + chapter_name + ", chapter_no=" + chapter_no + ", chapter_content="
-				+ chapter_content + "]";
+				+ content + "] ";
 	}
 }

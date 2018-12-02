@@ -1,37 +1,215 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<LibraryItems>
-	<book>
-		<title>bt1</title>
-		<author>ba1</author>
+<list>
+	<hello.entity.newspaper.Newspaper>
+		<title>lnewspaper</title>
+		<date__publication>2018-11-30 07:22:19.99 UTC</date__publication>
+		<type>3</type>
+		<stories>
+			<hello.entity.newspaper.Story>
+				<story__author>HT</story__author>
+				<story__title>Green</story__title>
+				<content>硕大的所</content>
+			</hello.entity.newspaper.Story>
+		</stories>
+	</hello.entity.newspaper.Newspaper>
+	
+	<hello.entity.newspaper.Newspaper>
+		<title>bnews</title>
+		<date__publication>2018-11-30 07:22:19.99 UTC</date__publication>
+		<type>3</type>
+		<stories>
+			<hello.entity.newspaper.Story>
+				<story__author>JH</story__author>
+				<story__title>Green</story__title>
+				<content>sdasd的所</content>
+			</hello.entity.newspaper.Story>
+			<hello.entity.newspaper.Story>
+				<story__author>BB</story__author>
+				<story__title>Green</story__title>
+				<content>sdasd</content>
+			</hello.entity.newspaper.Story>
+			<hello.entity.newspaper.Story>
+				<story__author>UY</story__author>
+				<story__title>Green</story__title>
+				<content>sdasd</content>
+			</hello.entity.newspaper.Story>
+			<hello.entity.newspaper.Story>
+				<story__author>IU</story__author>
+				<story__title>Green</story__title>
+				<content>sdasd</content>
+			</hello.entity.newspaper.Story>
+			<hello.entity.newspaper.Story>
+				<story__author>RE</story__author>
+				<story__title>Green</story__title>
+				<content>sdasd</content>
+			</hello.entity.newspaper.Story>
+		</stories>
+	</hello.entity.newspaper.Newspaper>
+	
+	<hello.entity.newspaper.Newspaper>
+		<title>cpaper</title>
+		<date__publication>2018-11-30 07:22:19.99 UTC</date__publication>
+		<type>3</type>
+		<stories>
+			<hello.entity.newspaper.Story>
+				<story__author>MJ</story__author>
+				<story__title>Green</story__title>
+				<content>sdasd的所</content>
+			</hello.entity.newspaper.Story>
+		</stories>
+	</hello.entity.newspaper.Newspaper>
+	
+	<hello.entity.book.Book>
+		<author>AA</author>
+		<title>dnewspaper</title>
+		<type>1</type>
 		<chapters>
-			<chapter>
-				<chapter_name>cn1</chapter_name>
-				<chapter_no>cno1</chapter_no>
-				<chapter_content>cc1</chapter_content>
-			</chapter>
-			<chapter>
-				<chapter_name>cn2</chapter_name>
-				<chapter_no>cno2</chapter_no>
-				<chapter_content>cc2</chapter_content>
-			</chapter>
+			<hello.entity.book.Chapter>
+				<chapter_name>C111</chapter_name>
+				<chapter_no>C111</chapter_no>
+				<content>sdasd</content>
+			</hello.entity.book.Chapter>
+			<hello.entity.book.Chapter>
+				<chapter_name>C111</chapter_name>
+				<chapter_no>C111</chapter_no>
+				<content>sdasd</content>
+			</hello.entity.book.Chapter>
+			<hello.entity.book.Chapter>
+				<chapter_name>C111</chapter_name>
+				<chapter_no>C111</chapter_no>
+				<content>sdasd</content>
+			</hello.entity.book.Chapter>
+			<hello.entity.book.Chapter>
+				<chapter_name>C111</chapter_name>
+				<chapter_no>C111</chapter_no>
+				<content>sdasd</content>
+			</hello.entity.book.Chapter>
 		</chapters>
-	</book>
-	<journal>
-		<title>jt1</title>
-		<year_publication>jy1</year_publication>
-		<volume_no>jv1</volume_no>
+	</hello.entity.book.Book>
+	
+	<hello.entity.book.Book>
+		<author>BB</author>
+		<title>enewspaper</title>
+		<type>1</type>
+		<chapters>
+			<hello.entity.book.Chapter>
+				<chapter_name>C111</chapter_name>
+				<chapter_no>C111</chapter_no>
+				<content>sdasd</content>
+			</hello.entity.book.Chapter>
+		</chapters>
+	</hello.entity.book.Book>
+	
+	<hello.entity.book.Book>
+		<author>CC</author>
+		<title>fnewspaper</title>
+		<type>1</type>
+		<chapters>
+			<hello.entity.book.Chapter>
+				<chapter_name>C111</chapter_name>
+				<chapter_no>C111</chapter_no>
+				<content>sdasd</content>
+			</hello.entity.book.Chapter>
+		</chapters>
+	</hello.entity.book.Book>
+	
+	<hello.entity.book.Book>
+		<author>GG</author>
+		<title>gnewspaper</title>
+		<type>1</type>
+		<chapters>
+			<hello.entity.book.Chapter>
+				<chapter_name>C111</chapter_name>
+				<chapter_no>C111</chapter_no>
+				<content>sdasd</content>
+			</hello.entity.book.Chapter>
+			<hello.entity.book.Chapter>
+				<chapter_name>C111</chapter_name>
+				<chapter_no>C111</chapter_no>
+				<content>sdasd</content>
+			</hello.entity.book.Chapter>
+			<hello.entity.book.Chapter>
+				<chapter_name>C111</chapter_name>
+				<chapter_no>C111</chapter_no>
+				<content>sdasd</content>
+			</hello.entity.book.Chapter>
+		</chapters>
+	</hello.entity.book.Book>
+	
+	<hello.entity.book.Book>
+		<author>EE</author>
+		<title>hnewspaper</title>
+		<type>1</type>
+		<chapters>
+			<hello.entity.book.Chapter>
+				<chapter_name>C111</chapter_name>
+				<chapter_no>C111</chapter_no>
+				<content>sdasd</content>
+			</hello.entity.book.Chapter>
+		</chapters>
+	</hello.entity.book.Book>
+	
+	<hello.entity.journal.Journal>
+		<title>iJJJJJJJJJJJJJ</title>
+		<volume_no>J-000001</volume_no>
+		<year__publication>2010</year__publication>
+		<type>2</type>
 		<articles>
-			<article>
-				<article_author>aa1</article_author>
-				<article_title>at1</article_title>
-				<article_content>ac1</article_content>
-			</article>
-			<article>
-				<article_author>aa2</article_author>
-				<article_title>at2</article_title>
-				<article_content>ac2</article_content>
-			</article>
+			<hello.entity.journal.Article>
+				<article__author>CD</article__author>
+				<article__title>sasdad</article__title>
+				<content>sdasd</content>
+			</hello.entity.journal.Article>
+			<hello.entity.journal.Article>
+				<article__author>DF</article__author>
+				<article__title>sasdad</article__title>
+				<content>sdasd</content>
+			</hello.entity.journal.Article>
+			<hello.entity.journal.Article>
+				<article__author>GF</article__author>
+				<article__title>sasdad</article__title>
+				<content>sdasd的所</content>
+			</hello.entity.journal.Article>
 		</articles>
-	</journal>
-</LibraryItems>
+	</hello.entity.journal.Journal>
+	
+	<hello.entity.journal.Journal>
+		<title>jQQQQQ</title>
+		<volume_no>J-000002</volume_no>
+		<year__publication>2010</year__publication>
+		<type>2</type>
+		<articles>
+			<hello.entity.journal.Article>
+				<article__author>AF</article__author>
+				<article__title>sasdad</article__title>
+				<content>sdasd</content>
+			</hello.entity.journal.Article>
+		</articles>
+	</hello.entity.journal.Journal>
+	
+	<hello.entity.journal.Journal>
+		<title>kRRRRRR</title>
+		<volume_no>J-000003</volume_no>
+		<year__publication>2010</year__publication>
+		<type>2</type>
+		<articles>
+			<hello.entity.journal.Article>
+				<article__author>ED</article__author>
+				<article__title>sasdad</article__title>
+				<content>sdasd</content>
+			</hello.entity.journal.Article>
+			<hello.entity.journal.Article>
+				<article__author>FEW</article__author>
+				<article__title>sasdad</article__title>
+				<content>sdasd</content>
+			</hello.entity.journal.Article>
+			<hello.entity.journal.Article>
+				<article__author>WR</article__author>
+				<article__title>sasdad</article__title>
+				<content>sdasd</content>
+			</hello.entity.journal.Article>
+		</articles>
+	</hello.entity.journal.Journal>
+	
+</list>

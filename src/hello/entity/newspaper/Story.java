@@ -6,7 +6,7 @@ public class Story {
 	
 	private String story_title;
 	
-	private String story_content;
+	private String content;
 
 	public String getStory_author() {
 		return story_author;
@@ -17,7 +17,7 @@ public class Story {
 	}
 
 	public String getStory_content() {
-		return story_content;
+		return content;
 	}
 
 	public void setStory_author(String story_author) {
@@ -29,13 +29,13 @@ public class Story {
 	}
 
 	public void setStory_content(String story_content) {
-		this.story_content = story_content;
+		this.content = story_content;
 	}
 
 	@Override
 	public String toString() {
 		return "Story [story_author=" + story_author + ", story_title=" + story_title + ", story_content="
-				+ story_content + "]";
+				+ content + "]";
 	}
 	
 }

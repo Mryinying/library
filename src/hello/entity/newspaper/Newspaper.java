@@ -7,14 +7,9 @@ import hello.entity.LibraryItem;
 
 public class Newspaper extends LibraryItem{
 	
-	private String title;
 	private Date date_publication;
 	
 	private List<Story> stories;
-	
-	public String getTitle() {
-		return title;
-	}
 	
 	public Date getDate_publication() {
 		return date_publication;
@@ -24,10 +19,6 @@ public class Newspaper extends LibraryItem{
 		return stories;
 	}
 	
-	public void setTitle(String title) {
-		this.title = title;
-	}
-
 	public void setDate_publication(Date date_publication) {
 		this.date_publication = date_publication;
 	}
@@ -38,7 +29,9 @@ public class Newspaper extends LibraryItem{
 
 	@Override
 	public String toString() {
-		return "Newspaper [title=" + title + ", date_publication=" + date_publication + ", stories=" + stories + "]";
+		return "Newspaper [author=" + getAuthor() + ", title=" + getTitle() + ",date_publication=" + date_publication + ", stories=" + stories 
+				+ "]\r\n";
 	}
+	
 	
 }
