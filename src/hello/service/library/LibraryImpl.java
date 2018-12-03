@@ -2,6 +2,7 @@ package hello.service.library;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -19,6 +20,11 @@ import hello.service.Library;
 import hello.utils.XStreamUtil;
 
 public class LibraryImpl implements Library{
+	
+	public static void main(String[] args) {
+		System.out.println(LibraryImpl.class.getClassLoader().getResource("").getPath().substring(1)+"data.xml");
+		
+	}
 	
 	private static List<LibraryItem> items ;
 	
@@ -68,7 +74,8 @@ public class LibraryImpl implements Library{
 	static {
 		BufferedReader bReader;
 		try {
-			bReader = new BufferedReader(new FileReader(LibraryImpl.class.getClassLoader().getResource("").getPath().substring(1)+"\\data.xml"));
+//			bReader = new BufferedReader(new FileReader(LibraryImpl.class.getClassLoader().getResource("").getPath().substring(1)+"\\data.xml"));
+			bReader = new BufferedReader(new InputStreamReader(LibraryImpl.class.getClassLoader().getResourceAsStream("data.xml")));
 			StringBuffer sb = new StringBuffer();
 			// 一行一行的写
 			String strLine = null;
