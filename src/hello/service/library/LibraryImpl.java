@@ -68,7 +68,7 @@ public class LibraryImpl implements Library{
 	static {
 		BufferedReader bReader;
 		try {
-			bReader = new BufferedReader(new FileReader("src\\data.xml"));
+			bReader = new BufferedReader(new FileReader(LibraryImpl.class.getClassLoader().getResource("").getPath()+"\\data.xml"));
 			StringBuffer sb = new StringBuffer();
 			// 一行一行的写
 			String strLine = null;

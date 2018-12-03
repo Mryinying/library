@@ -9,7 +9,7 @@
 			<hello.entity.newspaper.Story>
 				<story__author>HT</story__author>
 				<story__title>Green</story__title>
-				<content>硕大的所</content>
+				<content>contentssss</content>
 			</hello.entity.newspaper.Story>
 		</stories>
 	</hello.entity.newspaper.Newspaper>
